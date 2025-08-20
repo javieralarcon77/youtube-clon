@@ -1,0 +1,43 @@
+.shorts-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.shorts-logo{
+  display: flex;
+}
+.shorts-logo img{
+  margin-right: 10px;
+}
+
+.shorts-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.short{
+  width: 30%;
+}
+
+.short .info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.short img{
+  width: 100%;
+  border-radius: 10px;
+}
+.short p{
+    padding-top: 13px;
+    color:gray;
+    font-size: 15px;
+}
+.short h4{
+    padding-top: 12px;
+}
+.short .icon{
+  width: 30px;
+}

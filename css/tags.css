@@ -1,0 +1,25 @@
+.tags-container{
+  width: calc(100vw - 150px);
+  overflow: hidden;
+  margin-bottom: 30px;
+  
+}
+
+.tags{
+  display:flex;    
+  gap: 12px;
+  width: 200vw;
+}
+.tags p{
+  padding: 10px 12px;
+  background-color: #292929;
+  width: fit-content;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.tags p.active{
+  background-color: #eeeeee;
+  color: black;
+}
